@@ -1,8 +1,8 @@
-Advanced Machine Learning Specialization
+
+# Advanced Machine Learning Specialization
 
 
-
-As offered on Coursera, this [specialization] (https://www.coursera.org/specializations/aml) provides deeper insights to various Machine Learning techniques. 
+As offered on Coursera, this [specialization](https://www.coursera.org/specializations/aml) provides deeper insights to various Machine Learning techniques. 
 
 It consists of 7 courses:
 	1. Introduction to Deep Learning
