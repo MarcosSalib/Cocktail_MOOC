@@ -1,5 +1,5 @@
 
-# Practical Reinforcement Learning
+# Introduction to Deep Learning
 
 
 As offered on Coursera, [this](https://www.coursera.org/learn/intro-to-deep-learning?specialization=aml) course is offering deeper insights about Reinforcement Learning.
