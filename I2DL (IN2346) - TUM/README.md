@@ -7,6 +7,7 @@ for the sake of completeness, I've added my own lecture notes alongside some ext
 
 
 Topics covered per week:
+-----------------------------
 
 1. Introduction
 2. ML Basics - Linear Regression
