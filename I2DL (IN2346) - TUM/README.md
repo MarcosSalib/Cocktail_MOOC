@@ -1,7 +1,7 @@
 # Introduction to Deep Learning
 
 
-This repository represent the complete lecture material for Introduction to Deep Learning [IN2346](https://niessner.github.io/I2DL/) as taught by Prof. Matthias Nießner at TUM - WS21. It includes my solutions to all the programming assignments.
+This repository represents the complete lecture material for Introduction to Deep Learning [IN2346](https://niessner.github.io/I2DL/) as taught by Prof. Matthias Nießner at TUM - WS21. It includes my solutions to all the programming assignments.
 
 for the sake of completeness, I've added my own lecture notes alongside some extra material (e.g. books, summaries).
 
@@ -22,4 +22,4 @@ Topics covered per week:
 11. Recurrent Neural Networks
 12. Advanced Topics
 
-Note that starting from week_7, the notebooks are amended to some extent, they are not following the original ones. I've added more notes, code and sometimes totally different implementation.
+* Note that starting from week_7, the notebooks are amended to some extent, they are not following the original ones. I've added more notes, code and sometimes totally different implementation.
