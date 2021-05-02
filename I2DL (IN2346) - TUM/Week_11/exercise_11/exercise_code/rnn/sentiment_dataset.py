@@ -4,6 +4,7 @@ import pickle
 import random
 
 import torch
+import pytorch_lightning as pl
 from torch.utils.data.dataset import Dataset
 from torch.nn.utils.rnn import pad_sequence
 
@@ -67,14 +68,15 @@ def create_dummy_data(base_dir, sample_size=3, max_len=20, min_len=5):
     return data
 
 
-class SentimentDataset(Dataset):
-    def __init__(self, data):
+class SentimentDataset(pl.LightningDataModule):
+    def __init__(self, data, batch_size=16):
         """
         Inputs:
             data: list of tuples (raw_text, tokens, token_indices, label)
         """
         self.data = data
         self.data.sort(key=lambda x: len(x[1]), reverse=True)
+        self.batch_size = batch_size
 
     def __len__(self):
         return len(self.data)
@@ -92,6 +94,14 @@ class SentimentDataset(Dataset):
             'label': torch.tensor(label).float()
         }
 
+    def train_dataloader(self):
+        return DataLoader(self.train_data, batch_size=self.batch_size, num_workers=4)
+
+    def val_dataloader(self):
+        return DataLoader(self.val_data, batch_size=self.batch_size, num_workers=4)
+
+    def test_dataloader(self):
+        return DataLoader(self.test_data, batch_size=self.batch_size, num_workers=4)
 
 def collate(batch):
     """
