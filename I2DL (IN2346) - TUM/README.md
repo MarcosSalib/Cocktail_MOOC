@@ -22,4 +22,4 @@ Topics covered per week:
 11. Recurrent Neural Networks
 12. Advanced Topics
 
-* Note that starting from week_7, the notebooks are amended to some extent, they are not following the original ones. I've added more notes, code and sometimes totally different implementation.
+* Note that starting from week_7, the notebooks are amended to some extent, they are not following the original ones. 
