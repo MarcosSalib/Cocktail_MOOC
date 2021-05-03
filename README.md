@@ -12,4 +12,4 @@ Besides slides, papers and books, I've added some notes; to facilitate access fo
 Here are some extra resources for some tutorials and implementations, covering different topics.
 
 * [PyTorch Seq2Seq](https://github.com/bentrevett/pytorch-seq2seq)
-* 
+* [RL-Adventure](https://github.com/higgsfield/RL-Adventure)
