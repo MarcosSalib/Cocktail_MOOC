@@ -1,0 +1,144 @@
+
+
+some notes..
+
+
+
+
+- Running assumption: no complete knowledge of env is required.
+- MC only requires experience; sampling sequences of states, actions, and rewards from actual or simulated interactions with an env.
+
+
+- Learning from actual learning experience is strking; since no prior knowledge of env is required, yet optimal behavior can still be obtained.
+- Learning from simulated experience is also powerful.
+
+
+N.B. Although a model is required, the model need only generate transitions, not the complete probability distributions of all possible transitions, as it the case with DP.
+
+
+- To ensure well-defined returns are available, MC methods here will be only for episodic tasks. That is, experience is divided into episodes, and that all episodes evertually terminate no matter what actions are selected.
+
+
+- Unlike bandits, where we sampled and averaged rewards for each action, MC methods sample and average returns for each state-action pair.
+The difference is the return after taking an action in one state depends on the actions taken in later states in the same episode. And since all the action selections are undergoing learning, the problem becomes NONSTATIONARY from the point of view of the earlier state.
+To handle this nonstationary, we adapt the idea of Generalized Policy Iteration (GPI). For DP, we computed value fn from the knowledge of the MDP, with MC we learn value fn by sampling the returns with MDP.
+
+
+
+
+(5.1 MC Prediction)
+
+- Recall Value of a State: is the expected return - expected cummulative future discounted reward - starting from that state. In order to estimate it from experience, one can simply average the returns observed after visits to that state. As more returns are observed, the average should converge to the expected value.
+This idea underlies all MC methods.
+
+
+- A Visit to s: is each occurence of state s in an episode. 
+There are mainly 2 types:
+	First-Visit: estimate v_pi(s) as the average of the returns following first visits to s. Fig(5.1)
+	Every-Visit: estimate v_pi(s) as the average of the returns following all visits to s.
+
+- Both methods converges to v_pi(s) as the number of visits (or first visits) to s goes to infinity.
+
+N.B. It is important to notice that in case of first-visit MC, each return will be an indepedent, identically distributed estimate of v_pi(s) with finite variance. Again by the law of large numbers, the sequence of averages of these estimate converges to their expected values.
+Each average is itself an unbiased estimate, and the standard deviation of its error falls as 1/sqrt(n), where n is the number of returns averaged.
+
+
+- IMPORTANT: Example 5.1 Blackjack. 
+N.B. the player makes decisions on the basis of 3 variables: his current sum, the dealer's one showing card, and whether or not he holds a usable ace.
+- It's assumed that the same state never recurs within one episode, so there is no difference between first-visit and every-visit MC.
+- Fig(5.2) shows the approximate state-value functions, computed by MC Policy Evaluation.
+
+
+- Although the complete knowledge of environment is known here, applying DP would not be easy, since DP requires the distribution of next events, which -of course- would be difficult here.
+For example, what is the expected reward as a function of the dealer's showing card?
+N.B. all of these expected rewards and transition probabilities must be computed before applying DP.
+
+On the other hand, generating the sample games required by MC methods would be easy. Surprisingly, the ability of MC to work with sample episodes alone can be of significant advantage even when the complete knowledge of env is available.
+
+
+- The General Idea of a Backup Diagram
+For MC estimation, the root represents a state node, and below it is the entire trajectory of transitions along a particular single episode, ending at the terminal state. Fig(5.3).
+
+While DP, the backup diagram Fig(3.4a), shows all possible transitions. It also includes only one-step transition.
+On the other hand, MC diagram shows only those sampled on the one episode. It goes all the way to the end of the episode.
+The difference is fundamental here!! 
+
+
+- IMPORTANT
+- MC estimates for each state are independent. The estimate for one state does not build upon the estimate of any other state, as is the case in DP. MC does NOT BOOTSTRAP.
+
+- Consequently, the computational expense of estimating the value of a single state is independent of the number of states, making MC more attractive when one requires the value of only one or subset of states.
+One can generate sample episodes starting from the states of interest, averaging the returns from only those states ignoring all others. This is the third advantage after the ability to learn from actual experience and from simulated experience.
+
+
+- Example 5.2 Soap Bubble
+
+
+
+
+(5.2 MC Estimation of Action Values)
+
+- One of primary goals for MC is estimating q_star. The reason is, in case of NOT having a model, it would be particulary useful to estimate action values (values of state-action pairs) rather state values. In this case, estimating state values alone is NOT sufficient to determine a policy.
+
+- The policy evaluation problem for action values is to estimate q_pi(s,a); that is, the expected return when starting in state s, taking action a and thereafter following policy pi. MC methods are essentially the same, except now we consider visits to state-action pair instead rather state.
+
+- One complication for this,  is that many state-action pairs may NEVER be visited. Thus with no returns to average, MC estimates of other actions will NOT improve with experience. We need to estimate the value of all the actions from each state, NOT just the one we currently favor.
+- This is called "Maintaining Exploration".
+
+- Continual exploration is a MUST for policy evaluation.
+- One workaround is to specify that episodes start in a state-action pair, and that every pair has a nonzero probability of being selected as the start. Such assumption is called "Exploring Starts".
+- Such assumption is useful, but NOT always. In particular, when learning directly from actual interactions with the env, such assumption would not hold.
+- The most common alternative approach to ensure that all state-action pairs are encountered, is to consider "only policies" that are stochastic with a nonzero probability of selecting all actions in each state.
+
+
+
+(5.3 MC Control)
+
+-
+
+
+
+
+(5.4 MC Control Without Exploring Starts)
+
+-
+
+
+
+
+(5.5 Off-Policy Prediction via Importance Sampling)
+
+-
+
+
+
+
+(5.6 Incremental Implementation)
+
+-
+
+
+
+
+(5.7 Off-Policy MC Control)
+
+-
+
+
+
+
+(5.8 Importance Sampling on Truncated Returns)
+
+-
+
+
+
+
+(5.9 Summary)
+
+-
+
+
+
+
+

@@ -2,6 +2,11 @@
 
 ## Research Papers
 
+This is a collection of important milestones in the field.
+
+----------
+
+
 
 * [Deep Reinforcement Learning: An Overview](https://arxiv.org/abs/1701.07274)
 * [Evolution Strategies as a Scalable Alternative to Reinforcement Learning](https://arxiv.org/abs/1703.03864)
