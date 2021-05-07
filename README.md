@@ -9,7 +9,7 @@ Besides slides, papers and books, I've added some notes; to facilitate access fo
 -----
 ### More References
 
-Here are some extra resources for some tutorials and implementations, covering different topics.
+Here are some extra resources for some useful tutorials and implementations.
 
 * [PyTorch Seq2Seq](https://github.com/bentrevett/pytorch-seq2seq)
 * [RL-Adventure](https://github.com/higgsfield/RL-Adventure)
