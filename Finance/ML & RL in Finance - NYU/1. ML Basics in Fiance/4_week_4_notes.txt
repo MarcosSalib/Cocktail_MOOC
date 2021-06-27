@@ -1,0 +1,112 @@
+
+
+some notes...
+
+
+[Prediction of Earning Per Share]
+
+* Focus mainly on EQUITY and FIXED INCOME.
+* Stock Analysis:
+	- Fundamental Analysis: valuation using accouting info
+	- Technical Analysis: pattern recognition and ML
+	- Quantitative Analysis: based on probabilistic models
+	- Alternative Data: complementary data e.g. using sentiments
+
+* All types of Equity Analysis can be formulated in ML terms as problems of Regression, Classification, or Density Estimation.
+* Quantitative Analysis deals with probabilistic models that predict performance of securities and portfolios using pricing (market) data, as well as other data such as macro-economic data.
+
+
+
+[Fundamental Analysis]
+
+* It focuses on valuation of securities from available information, with a particular emphasis on accounting info.
+* Two main uses: predicting market prices or predicting EPS.
+
+
+
+[VALUE INVESTING]
+
+* Under-valued stocks have:
+	- High Book-to-Market (B/M)
+	- High Earnings-to-Price (E/P)
+	- High Cash Flow-to-Price (C/P)
+
+* Features for Value Investing:
+	- Profitability
+	- Leverage/Liquidity
+	- Operating Efficiency
+
+* Gross Margin is equal to Sales minus Cost of Goods Sold (COGS)
+* There are 3 major categories of features for Value Investing: Profitability, Leverage/Liquidity, and Operating Efficiency.
+
+
+
+[ML as Model Estimation]
+
+* All ML alg aim to fit some (regularizer) loss fn to some data.
+* Fitting:
+	- Parametric Fitting: fn of particular form, with a small # features.
+	- Non-Parametric Fitting: a very flexible fn with many free parameters.
+
+* Supervised Learning Alg:
+	- Generative Probabilistic Models p(x,y): Bayesian Prob, Gaussian Mixture Models, ...
+	- Discriminative Probabilistic Models p(y|x): Linear Reg, Logistic Reg, ...
+	- Non-Probabilistic Models: SVM, NN, ...
+N.B. Unlike Generative Models, we cannot simulate from Discriminative Models.
+
+* In Bayesian Prob, the evidence is the denominator in the Bayes' rule. As it does NOT depend on theta, it should NOT matter if all we want to do is to find the best value of theta.
+
+
+
+[Maximum Likelihood Estimate]
+
+* Details could be found at: Week-2-3-1-ML-with-Probabilistic-Models.
+N.B. For MLE, the prior is flat, while MAP has non-flat prior.
+
+* MLE and Least Square Loss: check slides for equations.
+N.B. we assume errors are iid, where as have Gaussian distribution with variance sigma**2.
+However, when such variance are constant, our likelihood will be equivalent to a minimum Least Square Error MSE fn.
+
+CONCLUSION: Linear Reg is equivalent to Linear Probalistic Model with constant Gaussian noise.
+Same goes with Non-Linear Reg and Non-Linear Probabilistic Models
+
+
+
+[Kullback-Leibler Divergence]
+
+* This is another interpretation of MLE, where we minimize KL divergence bet Model distr p_model & true distr p_data.
+* KL formula is non-symmetric: 
+	expectation of x sampled from p_data [ log (p_data(x) / p_model(x)) ]
+
+this can be further expanded to be: 
+	expectation x from p_data [ log p_data(x) ] - expectation x from p_data [ log p_model(x) ] 
+
+N.B. the -ve here is the ENTROPY, representing the randomness in the data. More randomness, higher entropy.
+N.B. the first term is independent of p_model, hence we are going to drop it.
+
+
+* KL divergence bet distribtions measures their dissimilarity. Its value is always non-negative, and equals zero when both distr concide.
+* Minimization of the -ve log-likelihood fn within the MLE method is equivalent to minimization of the KL-divergence between the data and model distributions.
+
+
+[Probabilitic Classification Models]
+
+* Our target data here is discrete.
+* Linear Reg is simply squashing Linear Reg output to be a prob bet [0,1].
+* Likelihood for Logistic Reg is based on the Binomial Distribution.
+
+N.B. While Classification Model can be probabilistic, an alg : NN shall be determinstic. That's because NN directly models prob of event as parameteric or non-parameteric fn of model inputs.
+
+
+
+[Corporate Defaults: Merton Model]
+
+* Merton Model is more of a theoretical benchmark.
+* The assumption is, a firm is run by equity holders. At time T, they pay the Face Value of the debt D. If the firm value is larger than D, they keep the remaining amount. If it is less than D, then bond holders take over and recover a RECOVERY VALUE V_t, while equity holders get nothing.
+N.B. Equity holders have limited liability.
+
+* Financial institutions are more difficult to model than corporations because they have a higher leverage and a more complex debt structure.
+* In Merton Model, there is only one predictor "d2" that depends only on the asset-to-debt ratio and asset volatility, but NOT on other balance sheet or income statement variables.
+
+
+
