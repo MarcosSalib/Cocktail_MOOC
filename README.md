@@ -16,12 +16,12 @@ The contents belong to original authors, only answer code and notes are mine.
     1. Aritifical Intelligence
         + AI (IN2062) - TUM
     2. Deep Learning
-        + [Deep Learning](https://www.coursera.org/account/accomplishments/specialization/certificate/UU7YPUS2FUCL) - deeplearning.ai<br>
+        + [Deep Learning Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/UU7YPUS2FUCL) - deeplearning.ai<br>
         + [TensorFlow Developer](https://www.coursera.org/account/accomplishments/specialization/certificate/EK5Q8S7TP4ZD) - deeplearning.ai
         + I2DL (IN2346) - TUM
         + [Introduction to Deep Learning](https://www.coursera.org/account/accomplishments/certificate/AXNZG8HUSLGL) - HSE
     3. Finance - Quantitative
-        + Machine Learning & Reinforcement Learning in Finance  - NYU
+        + Machine Learning & Reinforcement Learning in Finance Specialization  - NYU
             + [Guided Tour of Machine Learning in Finance](https://www.coursera.org/account/accomplishments/certificate/3EMSN5EZ37EG)
             + Fundamentals of Machine Learning
             + Reinforcement Learning in Finance
