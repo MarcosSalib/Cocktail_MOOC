@@ -9,7 +9,7 @@ The idea is to provide a concise and complete reference.
 the topics. Related research papers are also included. The aim is to provide an ease access for full course material. 
 The contents belong to original authors, only answer code and notes are mine.
   
-* This is an overview for the coursework as listed in this repository. They arranged by topics.<br>
+* This is an overview for the coursework as listed in this repository. They are arranged by topics.<br>
 *Hyperlinks* are for certificates if applicable.<br><br>
 
 	1. **Informatics**
