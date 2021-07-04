@@ -28,7 +28,7 @@ The contents belong to original authors, only answer code and notes are mine.
 	2. **Finance - Quantitative**
 		1. Machine Learning & Reinforcement Learning in Finance Specialization - NYU
         	+ [Guided Tour of Machine Learning in Finance](https://www.coursera.org/account/accomplishments/certificate/3EMSN5EZ37EG)
-            + Fundamentals of Machine Learning
+            + [Fundamentals of Machine Learning](https://www.coursera.org/account/accomplishments/certificate/4ZGX5JSD64NZ)
             + Reinforcement Learning in Finance
 		2. Blockchain Specialization - UBafflo
 	3. **Preliminaries**
