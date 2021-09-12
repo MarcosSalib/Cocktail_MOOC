@@ -35,7 +35,7 @@ The contents belong to original authors, only answer code and notes are mine.
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		- [Django For Everybody Specialization](https://www.coursera.org/account/accomplishments/certificate/W8LVWJNX9V9T) - UMich<br><br>
 
-**ii. Finance - Quantitative**<br><br>
+**ii. Finance - Quantitative**<br>
 	1. *ML & RL in Finance Specialization* - NYU<br>
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		- [x] [Guided Tour of Machine Learning in Finance](https://www.coursera.org/account/accomplishments/certificate/3EMSN5EZ37EG)<br>
