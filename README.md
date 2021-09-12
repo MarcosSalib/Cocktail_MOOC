@@ -28,9 +28,9 @@ The contents belong to original authors, only answer code and notes are mine.
 	2. **Finance - Quantitative**
 		1. *ML & RL in Finance Specialization* - NYU
 			- [x] [Guided Tour of Machine Learning in Finance](https://www.coursera.org/account/accomplishments/certificate/3EMSN5EZ37EG)
-            - [x] [Fundamentals of Machine Learning](https://www.coursera.org/account/accomplishments/certificate/4ZGX5JSD64NZ)
-            - [] Reinforcement Learning in Finance
-			- [] Overview of Advanced Methods of RL in Finance
+            		- [x] [Fundamentals of Machine Learning](https://www.coursera.org/account/accomplishments/certificate/4ZGX5JSD64NZ)
+            		- [ ] Reinforcement Learning in Finance
+			- [ ] Overview of Advanced Methods of RL in Finance
 
 		2. *Blockchain Specialization* - UBafflo<br><br>
 	3. **Preliminaries**
