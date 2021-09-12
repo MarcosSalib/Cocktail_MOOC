@@ -12,7 +12,7 @@ The contents belong to original authors, only answer code and notes are mine.
 * This is an overview for the coursework as listed in this repository. They are arranged by topics.<br>
 *Hyperlinks* are for certificates if applicable.<br><br>
 
-	1. **Informatics**
+	#### Informatics
 		1. *Aritifical Intelligence*<br>
         	a. Fundamentals of Artificial Intelligence (IN2062) - TUM<br>
 		   	b. [Deep Learning Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/UU7YPUS2FUCL) - deeplearning.ai<br>
@@ -25,18 +25,18 @@ The contents belong to original authors, only answer code and notes are mine.
 		2. *Web Development*
 			+ [Python3 Programming Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/SQ2UMK99Z8E4) - UMich
 			+ [Django For Everybody Specialization](https://www.coursera.org/account/accomplishments/certificate/W8LVWJNX9V9T) - UMich<br><br>
-	2. **Finance - Quantitative**
+	#### Finance - Quantitative
 		1. *ML & RL in Finance Specialization* - NYU
 			- [x] [Guided Tour of Machine Learning in Finance](https://www.coursera.org/account/accomplishments/certificate/3EMSN5EZ37EG)
-            		- [x] [Fundamentals of Machine Learning](https://www.coursera.org/account/accomplishments/certificate/4ZGX5JSD64NZ)
-            		- [ ] Reinforcement Learning in Finance
+            - [x] [Fundamentals of Machine Learning](https://www.coursera.org/account/accomplishments/certificate/4ZGX5JSD64NZ)
+            - [ ] Reinforcement Learning in Finance
 			- [ ] Overview of Advanced Methods of RL in Finance
 
 		2. *Blockchain Specialization* - UBafflo<br><br>
-	3. **Preliminaries**
+	#### Preliminaries
        1. [Mathematics for Machine Learning Specialization]() - ICL
 	   2. [Basic Mathematical Methods for Imaging and Visualization](https://drive.google.com/file/d/1h6AB4W14plh4un0i0D6JOgA4m_AX1R4r/view?usp=sharing) - TUM
        3. [Aerial Robotics](https://www.coursera.org/account/accomplishments/certificate/KQF9XTUWNYPE) - UPenn
        4. [Computer Vision Basics](https://www.coursera.org/account/accomplishments/certificate/6Z8PVV6AEANE) - UBafflo<br><br>
-	4. **Uncategorized**
+	#### Uncategorized
        1. [From Big Bang to Dark Energy](https://www.coursera.org/account/accomplishments/certificate/TDHAA7PDHNTA) - Tokyo University
