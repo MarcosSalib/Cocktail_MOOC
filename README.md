@@ -13,29 +13,30 @@ The contents belong to original authors, only answer code and notes are mine.
 *Hyperlinks* are for certificates if applicable.<br><br>
 
 	1. **Informatics**
-		1. Aritifical Intelligence
-        	+ AI (IN2062) - TUM
-    	2. Deep Learning
-        	+ [Deep Learning Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/UU7YPUS2FUCL) - deeplearning.ai<br>
+		1. *Aritifical Intelligence*
+        	+ Fundamentals of Artificial Intelligence (IN2062) - TUM
+		   	+ [Deep Learning Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/UU7YPUS2FUCL) - deeplearning.ai<br>
         	+ [TensorFlow Developer](https://www.coursera.org/account/accomplishments/specialization/certificate/EK5Q8S7TP4ZD) - deeplearning.ai
-        	+ I2DL (IN2346) - TUM
-        	+ [Introduction to Deep Learning](https://www.coursera.org/account/accomplishments/certificate/AXNZG8HUSLGL) - HSE
-		3. Machine Learning
+        	+ Introduction to Deep Learning (IN2346) - TUM
+        	+ [Advanced Introduction to Deep Learning](https://www.coursera.org/account/accomplishments/certificate/AXNZG8HUSLGL) - HSE
         	+ Bayesian Methods for Machine Learning - HSE
-        	+ ML (IN2064) - TUM
-		4. Reinforcement Learning
+        	+ Machine Learning (IN2064) - TUM
+		
 			+ [Practical Reinforcement Learning](https://www.coursera.org/account/accomplishments/certificate/QYE6W8S3EM7H)
+		2. Web Development
+			+ [Python3 Programming Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/SQ2UMK99Z8E4) - UMich
+			+ [Django For Everybody Specialization](https://www.coursera.org/account/accomplishments/certificate/W8LVWJNX9V9T) - UMich<br><br>
+
 	2. **Finance - Quantitative**
-		1. Machine Learning & Reinforcement Learning in Finance Specialization - NYU
+		1. ML & RL in Finance Specialization - NYU
         	+ [Guided Tour of Machine Learning in Finance](https://www.coursera.org/account/accomplishments/certificate/3EMSN5EZ37EG)
             + [Fundamentals of Machine Learning](https://www.coursera.org/account/accomplishments/certificate/4ZGX5JSD64NZ)
             + Reinforcement Learning in Finance
-		2. Blockchain Specialization - UBafflo
+		2. Blockchain Specialization - UBafflo<br><br>
 	3. **Preliminaries**
-	   1. [Python3 Programming Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/SQ2UMK99Z8E4) - UMich
-       2. [Mathematics for Machine Learning Specialization]() - ICL
-	   3. [Basic Mathematical Methods for Imaging and Visualization](https://drive.google.com/file/d/1h6AB4W14plh4un0i0D6JOgA4m_AX1R4r/view?usp=sharing) - TUM
-       4. [Aerial Robotics](https://www.coursera.org/account/accomplishments/certificate/KQF9XTUWNYPE) - UPenn
-       5. [Computer Vision Basics](https://www.coursera.org/account/accomplishments/certificate/6Z8PVV6AEANE) - UBafflo
+       1. [Mathematics for Machine Learning Specialization]() - ICL
+	   2. [Basic Mathematical Methods for Imaging and Visualization](https://drive.google.com/file/d/1h6AB4W14plh4un0i0D6JOgA4m_AX1R4r/view?usp=sharing) - TUM
+       3. [Aerial Robotics](https://www.coursera.org/account/accomplishments/certificate/KQF9XTUWNYPE) - UPenn
+       4. [Computer Vision Basics](https://www.coursera.org/account/accomplishments/certificate/6Z8PVV6AEANE) - UBafflo<br><br>
 	4. **Uncategorized**
        1. [From Big Bang to Dark Energy](https://www.coursera.org/account/accomplishments/certificate/TDHAA7PDHNTA) - Tokyo University
