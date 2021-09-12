@@ -13,20 +13,18 @@ The contents belong to original authors, only answer code and notes are mine.
 *Hyperlinks* are for certificates if applicable.<br><br>
 
 	1. **Informatics**
-		1. *Aritifical Intelligence*
-        	+ Fundamentals of Artificial Intelligence (IN2062) - TUM
-		   	+ [Deep Learning Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/UU7YPUS2FUCL) - deeplearning.ai<br>
-        	+ [TensorFlow Developer](https://www.coursera.org/account/accomplishments/specialization/certificate/EK5Q8S7TP4ZD) - deeplearning.ai
-        	+ Introduction to Deep Learning (IN2346) - TUM
-        	+ [Advanced Introduction to Deep Learning](https://www.coursera.org/account/accomplishments/certificate/AXNZG8HUSLGL) - HSE
-        	+ Bayesian Methods for Machine Learning - HSE
-        	+ Machine Learning (IN2064) - TUM
-		
-			+ [Practical Reinforcement Learning](https://www.coursera.org/account/accomplishments/certificate/QYE6W8S3EM7H)
+		1. *Aritifical Intelligence*<br>
+        	a. Fundamentals of Artificial Intelligence (IN2062) - TUM<br>
+		   	b. [Deep Learning Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/UU7YPUS2FUCL) - deeplearning.ai<br>
+        	c. [TensorFlow Developer](https://www.coursera.org/account/accomplishments/specialization/certificate/EK5Q8S7TP4ZD) - deeplearning.ai<br>
+        	d. Introduction to Deep Learning (IN2346) - TUM<br>
+        	e. [Advanced Introduction to Deep Learning](https://www.coursera.org/account/accomplishments/certificate/AXNZG8HUSLGL) - HSE<br>
+        	f. Bayesian Methods for Machine Learning - HSE<br>
+        	g. Machine Learning (IN2064) - TUM<br>
+			h. [Practical Reinforcement Learning](https://www.coursera.org/account/accomplishments/certificate/QYE6W8S3EM7H) - HSE<br><br>
 		2. Web Development
 			+ [Python3 Programming Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/SQ2UMK99Z8E4) - UMich
 			+ [Django For Everybody Specialization](https://www.coursera.org/account/accomplishments/certificate/W8LVWJNX9V9T) - UMich<br><br>
-
 	2. **Finance - Quantitative**
 		1. ML & RL in Finance Specialization - NYU
         	+ [Guided Tour of Machine Learning in Finance](https://www.coursera.org/account/accomplishments/certificate/3EMSN5EZ37EG)
