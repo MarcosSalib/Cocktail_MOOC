@@ -22,15 +22,15 @@ The contents belong to original authors, only answer code and notes are mine.
         	f. Bayesian Methods for Machine Learning - HSE<br>
         	g. Machine Learning (IN2064) - TUM<br>
 			h. [Practical Reinforcement Learning](https://www.coursera.org/account/accomplishments/certificate/QYE6W8S3EM7H) - HSE<br><br>
-		2. Web Development
+		2. *Web Development*
 			+ [Python3 Programming Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/SQ2UMK99Z8E4) - UMich
 			+ [Django For Everybody Specialization](https://www.coursera.org/account/accomplishments/certificate/W8LVWJNX9V9T) - UMich<br><br>
 	2. **Finance - Quantitative**
-		1. ML & RL in Finance Specialization - NYU
+		1. *ML & RL in Finance Specialization* - NYU
         	+ [Guided Tour of Machine Learning in Finance](https://www.coursera.org/account/accomplishments/certificate/3EMSN5EZ37EG)
             + [Fundamentals of Machine Learning](https://www.coursera.org/account/accomplishments/certificate/4ZGX5JSD64NZ)
             + Reinforcement Learning in Finance
-		2. Blockchain Specialization - UBafflo<br><br>
+		2. *Blockchain Specialization* - UBafflo<br><br>
 	3. **Preliminaries**
        1. [Mathematics for Machine Learning Specialization]() - ICL
 	   2. [Basic Mathematical Methods for Imaging and Visualization](https://drive.google.com/file/d/1h6AB4W14plh4un0i0D6JOgA4m_AX1R4r/view?usp=sharing) - TUM
