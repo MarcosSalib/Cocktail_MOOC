@@ -9,8 +9,8 @@ The idea is to provide a concise and complete reference.
 the topics. Related research papers are also included. The aim is to provide an ease access for full course material. 
 The contents belong to original authors, only answer code and notes are mine.
 * This is an overview for the coursework as listed in this repository. They are arranged by topics.<br>
-*Hyperlinks* are for certificates if applicable.<br><br>
-* More MOOC from TUM can be found [here](https://github.com/ila/tum)
+*Hyperlinks* are for certificates if applicable.
+* More MOOC from TUM can be found [here](https://github.com/ila/tum)<br><br>
 
 **i. Informatics**<br>
 	1. *Aritifical Intelligence*<br>
