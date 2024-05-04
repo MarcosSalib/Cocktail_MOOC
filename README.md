@@ -33,8 +33,9 @@ The contents belong to original authors, only answer code and notes are mine.
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		- [Python3 Programming Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/SQ2UMK99Z8E4) - UMich<br>
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		- [Django For Everybody Specialization](https://www.coursera.org/account/accomplishments/certificate/W8LVWJNX9V9T) - UMich<br><br>
-  		- [DevOps on AWS]() - AWS
+		- [Django For Everybody Specialization](https://www.coursera.org/account/accomplishments/certificate/W8LVWJNX9V9T) - UMich<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  		- [DevOps on AWS]() - AWS<br><br>
 
 **ii. Finance - Quantitative**<br>
 	1. *ML & RL in Finance Specialization* - NYU<br>
